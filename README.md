@@ -26,7 +26,7 @@ pear install HTTP_Request2
 ## Usage
 *Donwload AtomPub/AtomPub.php.  
 *Place the file where you want.  
-*Import the file inside your PHP.  
+*Import the file into your PHP.  
 ```
 require("AtomPub/AtomPub.php");
 ```
