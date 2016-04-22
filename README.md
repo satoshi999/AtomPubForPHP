@@ -11,7 +11,7 @@ Just that define parametors you need and generate instance,
 You can interchange data of AtomPub API.  
 However you shold be check how is xml of AtomPub API.  
 Forther some parametors has to use  that along spec of your blog service.  
-So, Confirm the item of below before that implement this PHP.
+So, Confirm the item of below before implement this PHP.
 
 * End point URL of AtomPub API
 * Whether need AtomPub key
