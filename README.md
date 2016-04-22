@@ -41,7 +41,7 @@ Manage informaton for connect AtomPub API
 | $username | Requied | String | username of admin page of the blog. | 
 | $password | Requied | String | AtomPub key if need it. Otherwise it's password of admin page of the blog | 
 ##### Function
-| Name | Arg | Data Type| Rerutn |
+| Name | Arg | Data Type| Return |
 |---|---|---|---|
 | send | $xml | The xml created by AtomPub_Message | response of AtomPub API |
 
@@ -61,7 +61,7 @@ Create send XML by generate instance with list of AtomPub_Value
 |---|---|---|
 | $data | Requied | Array of AtomPub_Value |
 ##### Function
-| Name | Arg | Rerutn |
+| Name | Arg | Return |
 |---|---|---|
 | getXml | --- | The xml that was created |
 
