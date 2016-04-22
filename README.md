@@ -5,13 +5,13 @@
 The PHP source of interchang PHP with AtomPub API.
 
 ## Description
-This PHP is source for interchange between PHP and AtomPub API without mind markup and wsse authorize.  
-Modules which to create xml and authorize are implemented in this PHP.  
-Just that define parametors you need and generate instance,  
-You can interchange data of AtomPub API.  
-However you shold be check how is xml of AtomPub API.  
-Forther some parametors has to use  that along spec of your blog service.  
-So, Confirm the item of below before implement this PHP.
+This PHP  is source for interchange between PHP and AtomPub API without mind markup and wsse authorize.
+Modules which to create xml and authorize are implemented in this PHP.
+Just that define parametors you need and generate instance,
+You can interchange data of AtomPub API.
+However you should be check how is xml of AtomPub API.
+Further some parametors has to use that along spec of your blog service.
+So, Confirm the item of below before that implement this PHP.
 
 * End point URL of AtomPub API
 * Whether need AtomPub key
@@ -25,7 +25,7 @@ pear install HTTP_Request2
 
 ## Usage
 *Donwload AtomPub/AtomPub.php.  
-*Place the file where you want.  
+*Place the file in any location.  
 *Import the file into your PHP.  
 ```
 require("AtomPub/AtomPub.php");
@@ -33,11 +33,11 @@ require("AtomPub/AtomPub.php");
 
 ## Classes
 ### AtomPub_Client
-Management informaton for connect AtomPub API
+Manage informaton for connect AtomPub API
 ##### Constructor
 | Parametor | Constraint | Data Type | Description | 
 |---|---|---|---|
-| $endPoint | Requied | String | AtomPub API URL that along require spec of the blog. | 
+| $endPoint | Requied | String | AtomPub API URL that along spec of the blog. | 
 | $username | Requied | String | username of admin page of the blog. | 
 | $password | Requied | String | AtomPub key if need it. Otherwise it's password of admin page of the blog | 
 ##### Function
@@ -47,7 +47,7 @@ Management informaton for connect AtomPub API
 
 
 ### AtomPub_Value
-Management markup value of XML
+Manage markup value of XML
 ##### Constructor
 | Parametor | Constraint | Data Type | Description | 
 |---|---|---|---|
@@ -55,7 +55,7 @@ Management markup value of XML
 | $type | Requied | String | Markup of xml that will be send to AtomPub API | 
 
 ### AtomPub_Message
-Created send XML by generate instance with list of AtomPub_Value
+Create send XML by generate instance with list of AtomPub_Value
 ##### Constructor
 | Parametor | Constraint | Data Type |
 |---|---|---|
