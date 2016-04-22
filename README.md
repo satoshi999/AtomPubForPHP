@@ -5,7 +5,7 @@
 The PHP source of interchang PHP with AtomPub API.
 
 ## Description
-This PHP is source for that interchange between PHP and AtomPub API without mind markup and wsse authorize.  
+This PHP is source for interchange between PHP and AtomPub API without mind markup and wsse authorize.  
 Modules which to create xml and authorize are implemented in this PHP.  
 Just that define parametors you need and generate instance,  
 You can interchange data of AtomPub API.  
@@ -25,7 +25,7 @@ pear install HTTP_Request2
 
 ## Usage
 *Donwload AtomPub/AtomPub.php.  
-*Place the file you want.  
+*Place the file where you want.  
 *Import the file inside your PHP.  
 ```
 require("AtomPub/AtomPub.php");
@@ -33,7 +33,7 @@ require("AtomPub/AtomPub.php");
 
 ## Classes
 ### AtomPub_Client
-Management informaton for that connect AtomPub API
+Management informaton for connect AtomPub API
 ##### Constructor
 | Parametor | Constraint | Data Type | Description | 
 |---|---|---|---|
@@ -43,7 +43,7 @@ Management informaton for that connect AtomPub API
 ##### Function
 | Name | Arg | Data Type| Rerutn |
 |---|---|---|---|
-| send | $xml | xml created by AtomPub_Message | response of AtomPub API |
+| send | $xml | The xml created by AtomPub_Message | response of AtomPub API |
 
 
 ### AtomPub_Value
@@ -63,7 +63,7 @@ Created send XML by generate instance with list of AtomPub_Value
 ##### Function
 | Name | Arg | Rerutn |
 |---|---|---|
-| getXml | --- | xml created inside the AtomPub_Message  |
+| getXml | --- | The xml that was created |
 
 
 ### Sample
